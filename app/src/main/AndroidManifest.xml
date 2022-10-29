@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nasywah.histow">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/histow"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/histow"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Histow">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".QuizHasil"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".QuizHasilSedang"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".QuizHasilSulit"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".Tentang"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".QuizSedang"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".QuizSulit"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".QuizPilihan"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".Daftar"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".Menu"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity
+            android:name=".activity_splash"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
